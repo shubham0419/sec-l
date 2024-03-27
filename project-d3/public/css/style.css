@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.productContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+.card{
+    max-height: 300px;
+}
+.card img{
+    height: 50%;
+}
